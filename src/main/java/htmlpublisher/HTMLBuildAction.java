@@ -4,7 +4,7 @@ import hudson.model.AbstractBuild;
 
 import java.io.File;
 
-class HTMLBuildAction extends BaseHTMLAction {
+public class HTMLBuildAction extends BaseHTMLAction {
     private final AbstractBuild<?, ?> build;
 
     public HTMLBuildAction(AbstractBuild<?, ?> build, HtmlPublisherTarget actualHtmlPublisherTarget) {
